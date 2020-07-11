@@ -1,0 +1,132 @@
+#home-page-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.nav-links {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-auto-flow: column;
+  grid-gap: 1.5em;
+  width: 100%;
+  height: auto;
+}
+
+.logo-image {
+  width: 100%;
+  height: auto;
+}
+
+.nav-bar {
+  max-width: 900px;
+  height: auto;
+  margin: auto;
+}
+
+.bio-paragraph {
+  font-family: "Inconsolata", monospace;
+  font-size: 25px;
+  text-align: justify;
+  line-height: 35px;
+}
+
+.bio-content {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-auto-flow: column;
+  grid-gap: 50px;
+  grid-template-columns: 50fr;
+  width: 70%;
+  height: auto;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+footer {
+  font-family: "Inconsolata", monospace;
+  font-size: 13px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+.footer-text {
+  text-align: center;
+}
+
+.cv-page-content {
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  justify-content: center;
+}
+
+#cv-img {
+  margin: auto;
+  text-align: center;
+  display: block;
+  border: 5px solid black;
+}
+
+#cv-img:hover {
+  border: 10px solid black;
+}
+
+.contact-paragraph {
+  font-family: "Inconsolata", monospace;
+  font-size: 25px;
+  line-height: 55px;
+  text-align: left;
+}
+
+.contact-label {
+  font-weight: bold;
+}
+
+.contact-link {
+  color: black;
+}
+
+.contact-link:visited {
+  color: black;
+}
+
+.contact-link:hover {
+  font-weight: bold;
+}
+
+.whole-page {
+  position: relative;
+  min-height: 100vh;
+}
+
+.page-content {
+  padding-bottom: 2.5rem;
+}
+
+.placeholder-paragraph {
+  font-family: "Inconsolata", monospace;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.contact-content {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-auto-flow: column;
+  grid-gap: 50px;
+  width: 70%;
+  height: auto;
+  margin: auto;
+  padding-top: 90px;
+  padding-bottom: 100px;
+}
