@@ -32,10 +32,8 @@ const navLinks = {
 };
 
 Object.keys(navLinks).map((key) => {
-  console.log(key);
   const link = document.getElementById(key);
-  console.log(link.src);
-  console.log(navLinks[key].here);
+
   if (link.src.includes(navLinks[key].here)) {
     link.addEventListener("mouseover", (e) => {
       e.target.src = navLinks[key].here;
